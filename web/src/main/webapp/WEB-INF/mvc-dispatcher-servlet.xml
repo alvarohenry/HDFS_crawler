@@ -18,5 +18,9 @@
 			<value>.jsp</value>
 		</property>
 	</bean>
+	
+	<!-- hdp:configuration>
+    	fs.default.name=hdfs://localhost:54310
+	</hdp:configuration-->
  
 </beans>
