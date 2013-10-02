@@ -2,10 +2,10 @@
 <head>
 <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
 </head>
-<body onload="call()">
+<body>
 	<h1>Directories and files of HDFS (JSON format)</h1>
 	<pre class="prettyprint">
 		${messages}
-	</pre>	
+	</pre>
 </body>
 </html>
