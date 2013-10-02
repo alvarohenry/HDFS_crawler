@@ -21,7 +21,7 @@ public class ShowFSController {
 	public String showFS(ModelMap model) {
 		logger.info("Controller - showFS : Reading the Hadoop File System ....");
 		String result = dataRetriever.retriveFileSystem();
-		model.addAttribute("messages", "Spring 3 MVC " + result);
+		model.addAttribute("messages", result);
 		return "hello";
 	}
 }
